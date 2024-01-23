@@ -17,24 +17,6 @@ locals {
     time = formatdate("DD MMM YYYY hh:mm ZZZ", timestamp())
 }
 
-variable "region" {
-    default = "us-east-2"
-}
-
-variable "tags" {
-    type = list
-    default = ["first_instance","second_instance"]
-}
-
-variable "ami" {
-    type = map
-    default = {
-        "us-east-2" = "ami-123456789"
-        "us-east-1" = "ami-987654321"
-        "us-west-1" = "ami-192837465"
-    }
-}
-
 resource "aws_key_pair" "loginkey" {
     key_name = "login-key"
     public_key = file("${path.module}/id_rsa.pub")
