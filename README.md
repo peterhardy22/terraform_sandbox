@@ -22,9 +22,11 @@ Repository for holding terraform examples and experiments
 - terraform init : Initializes a configuration directory and downloads and installs the providers defined in the configuration.
     - Output prints out names of the files modified, if any.
 
+- terraform output : Queries the output from the latest apply command.
+
 - terraform show : Inspects the current state of resources being managed by Terraform.
 
-- terraform statee list : Lists the resources in the project's state.
+- terraform state list : Lists the resources in the project's state.
 
 - terraform validate : Checks configuration is syntactically valid and internally consistent.
     - If valid, return message will be: "Success! The configuration is valid."
