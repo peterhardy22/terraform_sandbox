@@ -1,4 +1,11 @@
 terraform {
+  backend "remote" {
+    organizations = "the-arts-concierge"
+    workspace {
+      name = "Workspace-Today"
+    }
+  }
+  
   required_providers {
     aws = {
       source  = "hashicorp/aws"
