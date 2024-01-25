@@ -22,6 +22,9 @@ Repository for holding terraform examples and experiments
 - terraform init : Initializes a configuration directory and downloads and installs the providers defined in the configuration.
     - Output prints out names of the files modified, if any.
 
+- terraform login : Logs into Terraform Cloud account via API key.
+    - Rerun terraform init command to intialize the backend.
+
 - terraform output : Queries the output from the latest apply command.
 
 - terraform show : Inspects the current state of resources being managed by Terraform.
