@@ -23,7 +23,8 @@ Repository for holding terraform examples and experiments
 - terraform apply : Applies configurations to create infrastructure.
     - Before applying changes, outputs execution plan which describes the actions Terraform will take in order to change your infrastructure to match the configuration, as well as waits for your approval via typing yes or no.
     - Outputs an execution plan of what happened to the configuration.
-    - -var "variablename=newvalue" : Argument changes values for single apply, but does not save them for future applies.
+    -  -replace : Allows you to target specific resources and avoid destroying all the resources in your workspace just to fix one of them.
+    -  -var "variablename=newvalue" : Argument changes values for single apply, but does not save them for future applies.
     - Attach "plan_file_name" to end to apply a saved plan file.
 
 - terraform destroy : Terminates resources defined in a Terraform configuration.
