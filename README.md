@@ -24,6 +24,7 @@ Repository for holding terraform examples and experiments
     - Before applying changes, outputs execution plan which describes the actions Terraform will take in order to change your infrastructure to match the configuration, as well as waits for your approval via typing yes or no.
     - Outputs an execution plan of what happened to the configuration.
     -  -replace : Allows you to target specific resources and avoid destroying all the resources in your workspace just to fix one of them.
+    -  -target="path.to.resource" : Applies portion of configuration to assist in troubleshooting or when resources become out of sync for Terraform to automatically handle.
     -  -var "variablename=newvalue" : Argument changes values for single apply, but does not save them for future applies.
     - Attach "plan_file_name" to end to apply a saved plan file.
 
