@@ -7,7 +7,7 @@ Repository for holding terraform examples and experiments
 
 3. 
 
-## Commands
+## Commands and Arguments
 
 - terraform apply : Applies configurations to create infrastructure.
     - Before applying changes, outputs execution plan which describes the actions Terraform will take in order to change your infrastructure to match the configuration, as well as waits for your approval via typing yes or no.
