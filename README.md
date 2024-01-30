@@ -54,3 +54,7 @@ Repository for holding terraform examples and experiments
 
 - terraform validate : Checks configuration is syntactically valid and internally consistent.
     - If valid, return message will be: "Success! The configuration is valid."
+
+- terraform version : Checks your Terraform version and the version of any providers your configuration is using.
+    - Also let you know if there are ant newer versions of Terraform available.
+    - major.minor.patch format for Terraform versions.
