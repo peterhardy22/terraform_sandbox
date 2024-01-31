@@ -28,6 +28,10 @@ Repository for holding terraform examples and experiments
     -  -var "variablename=newvalue" : Argument changes values for single apply, but does not save them for future applies.
     - Attach "plan_file_name" to end to apply a saved plan file.
 
+- terraform console : Opens an interactive console that you can use to evaluate expressions in the context of your configuration.
+    - slice(var.example, start_index, end_index_exclusive) : Function allows you to return specific elements from a collection variable type.
+    - Type 'exit' to leave the console command.
+
 - terraform destroy : Terminates resources defined in a Terraform configuration.
     - Outputs execution plan of what it will delete.
 
