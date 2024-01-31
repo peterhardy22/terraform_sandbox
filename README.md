@@ -51,6 +51,8 @@ Repository for holding terraform examples and experiments
     -  -destroy : Creates plan to destrooy all of the resources in the configuration. If you save it with -out flag you can run the terraform apply "destroy_plan_file_name" to tear it down.
 
 - terraform output : Queries the output from the latest apply command.
+    -  -json : Machine-readable format in JSON-formatted output.
+    -  -raw resource_name : Outputs for machine-readable format (without quotes).
 
 - terraform show : Inspects the current state of resources being managed by Terraform.
     - Attach "plan_file_name" after show command to see a plan file from the terraform plan command.
