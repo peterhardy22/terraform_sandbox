@@ -26,6 +26,7 @@ Repository for holding terraform examples and experiments
     -  -replace : Allows you to target specific resources and avoid destroying all the resources in your workspace just to fix one of them.
     -  -target="path.to.resource" : Applies portion of configuration to assist in troubleshooting or when resources become out of sync for Terraform to automatically handle.
     -  -var "variablename=newvalue" : Argument changes values for single apply, but does not save them for future applies.
+    -  -var-file="secret.tfvars" : Sets varaible va;ues with variable definition files. 
     - Attach "plan_file_name" to end to apply a saved plan file.
 
 - terraform console : Opens an interactive console that you can use to evaluate expressions in the context of your configuration.
