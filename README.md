@@ -38,6 +38,8 @@ Repository for holding terraform examples and experiments
 
 - terraform fmt : Automatically updates configurations in the current directory for readability and consistency.
 
+- terraform get : Used to download and update modules mentioned in the root module.
+
 - terraform init : Initializes a configuration directory and downloads and installs the providers defined in the configuration.
     - Output prints out names of the files modified, if any.
     -  -upgrade flag will upgrade all providers to the latest version consistent within the version constraints specified in the configuration.
