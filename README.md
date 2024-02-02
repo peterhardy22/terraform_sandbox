@@ -40,6 +40,8 @@ Repository for holding terraform examples and experiments
 
 - terraform get : Used to download and update modules mentioned in the root module.
 
+- terraform graph : Produces a visual description of the relationships between objectsin a Terraform configuration.
+
 - terraform init : Initializes a configuration directory and downloads and installs the providers defined in the configuration.
     - Output prints out names of the files modified, if any.
     -  -upgrade flag will upgrade all providers to the latest version consistent within the version constraints specified in the configuration.
