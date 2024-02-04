@@ -6,6 +6,10 @@ Repository for holding terraform examples and experiments
 2. github-create-repo - creates a basic repository in github
 
 
+## Resources
+- https://developer.hashicorp.com/terraform/docs
+
+
 ## Commands and Arguments
 
 - jq : Allows you to view JSON formatted saved configuration plans.
